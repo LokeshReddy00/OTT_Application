@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Demo App</string>
+    <string name="app_name">OTT</string>
     <string name="publisher_id">pub-3940256099942544</string>
 
     <string name="facebook_app_id">2703176636427041</string>
@@ -9,8 +9,8 @@
     <string name="app_lovin_id">nIcO_boo7GMMZ2XaF5P1EldmOyTNmk8X8mMWH8KV6rAsOrH3fJuwLCT1Edyh8qK_phPCWizxoIrFwguMHgn0SJ</string>
 
 
-    <string name="download_foler">Flix</string>
-    <string name="panel_url">flix.virmana.com</string>
+    <string name="download_foler">Buddies</string>
+    <string name="panel_url">Buddies.virmana.com</string>
     <string-array name="orders_list">
         <item>Last Added</item>
         <item>By Rating</item>
@@ -92,8 +92,8 @@
     <string name="message_sended">Message has been sent successfully</string>
     <string name="error_mail_valide">Please enter a valid E-mail</string>
 
-    <string name="title_slide_1">Welcome to Flix App</string>
-    <string name="description_slide_1">Thank you for download Flix App ,Enjoy with this Amazing Android app with cool content  .</string>
+    <string name="title_slide_1">Welcome to Buddies App</string>
+    <string name="description_slide_1">Thank you for download Buddies App ,Enjoy with this Amazing Android app with cool content  .</string>
 
     <string name="title_slide_2">Watch All here</string>
     <string name="description_slide_2">Watch All content in one place : Movies , Tv Series , Live Tv Channel and more </string>

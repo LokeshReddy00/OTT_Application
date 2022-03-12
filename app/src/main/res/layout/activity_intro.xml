@@ -8,12 +8,12 @@
     android:layout_height="match_parent"
     android:background="@color/black"
     tools:context=".ui.activities.IntroActivity">
+
     <com.buddies.ott.ui.views.ClickableViewPager
-        android:gravity="center"
         android:id="@+id/view_pager_slide"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </com.buddies.ott.ui.views.ClickableViewPager>
+        android:layout_height="match_parent"
+        android:gravity="center"></com.buddies.ott.ui.views.ClickableViewPager>
     <LinearLayout
         android:id="@+id/linear_layout_skip"
         android:background="?android:attr/selectableItemBackground"
