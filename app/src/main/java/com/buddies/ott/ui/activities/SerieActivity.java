@@ -573,7 +573,7 @@ public class SerieActivity extends AppCompatActivity implements PlaylistDownload
         linear_layout_serie_activity_share.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                share();
+//                share();
             }
         });
         linear_layout_activity_serie_my_list.setOnClickListener(new View.OnClickListener() {
@@ -1808,6 +1808,7 @@ public class SerieActivity extends AppCompatActivity implements PlaylistDownload
     }
     public void share(){
         String shareBody = poster.getTitle()+"\n\n"+getResources().getString(R.string.get_this_serie_here)+"\n"+ Global.API_URL.replace("api","share")+ poster.getId()+".html";
+//        String shareBody = poster.getTitle()+"\n\n"+getResources().getString(R.string.get_this_serie_here)+"\n"+"https://buddies-infotech.000webhostapp.com/"+ poster.getId()+".html";
         Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
         sharingIntent.setType("text/plain");
         sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);

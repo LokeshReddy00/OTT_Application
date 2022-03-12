@@ -381,7 +381,7 @@ public class ChannelActivity extends AppCompatActivity {
         linear_layout_channel_activity_share.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                share();
+//                share();
             }
         });
         linear_layout_activity_channel_my_list.setOnClickListener(new View.OnClickListener() {
@@ -758,7 +758,7 @@ public class ChannelActivity extends AppCompatActivity {
         }
     }
     public void share(){
-        String shareBody = channel.getTitle()+"\n\n"+getResources().getString(R.string.get_this_channel_here)+"\n"+ Global.API_URL.replace("api","c/share")+ channel.getId()+".html";
+        String shareBody = channel.getTitle()+"\n\n"+getResources().getString(R.string.get_this_channel_here)+"\n"+  Global.API_URL.replace("api","share")+ channel.getId()+".html";
         Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
         sharingIntent.setType("text/plain");
         sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);

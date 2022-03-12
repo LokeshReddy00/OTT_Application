@@ -508,7 +508,7 @@ public class MovieActivity extends AppCompatActivity {
         linear_layout_movie_activity_share.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                share();
+//                share();
             }
         });
         linear_layout_activity_movie_my_list.setOnClickListener(new View.OnClickListener() {
