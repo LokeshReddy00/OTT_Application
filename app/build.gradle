@@ -11,7 +11,7 @@ android {
     }
     compileSdkVersion 30
     defaultConfig {
-        applicationId "com.virlabs.demo_flx_application"
+        applicationId "com.buddies.ott"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 2
